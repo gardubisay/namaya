@@ -12,7 +12,7 @@ RUN git clone -b Ayiin-Userbot https://github.com/kerasindng/temukan /home/ayiin
 #COPY ./sample.env ./.env* /home/ayiinuserbot/
 
 WORKDIR /home/ayiinuserbot/
-
+RUN pip3 install flask flask_restful
 RUN pip install -r requirements.txt
 
 CMD ["bash","start"]

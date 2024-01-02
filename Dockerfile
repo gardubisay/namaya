@@ -15,4 +15,7 @@ WORKDIR /home/ayiinuserbot/
 RUN pip3 install flask flask_restful
 RUN pip install -r requirements.txt
 
+# Set the PORT environment variable
+ENV PORT 8080
+
 CMD ["bash","start"]

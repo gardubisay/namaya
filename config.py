@@ -98,8 +98,8 @@ class Config(object):
     SUDO_HANDLER = getenv("SUDO_HANDLER", r"$")
 
     # Support
-    GROUP = getenv("GROUP", "AyiinChats")
-    CHANNEL = getenv("CHANNEL", "AyiinChannel")
+    GROUP = getenv("GROUP", "@Jual_Nokos_Telegram")
+    CHANNEL = getenv("CHANNEL", "@Jual_Nokos_Telegram")
 
     # Heroku Credentials for updater.
     HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
